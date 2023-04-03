@@ -1,0 +1,33 @@
+.rankings-container{
+  height: calc(100vh - 50px);
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.rankings-spinner{
+  display: block;
+  position: fixed;
+  z-index: 2; 
+  top: 50%;
+  right: 50%;
+}
+
+.rankings-modal-title{
+  font-weight: 700;
+  font-size: larger;
+}
+
+.rankings-modal-details{
+  font-weight: 600;
+  font-size: medium;
+}
+
+.rankings-modal-username{
+  text-decoration: none;
+  margin-left: 5px;
+  color: rgb(117, 2, 117);
+}
+
